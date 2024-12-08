@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Railways</title>
+
+    <script>
+        function validateForm() {
+        let name = document.forms["bookingForm"]["Name"].value;
+        let mobile = document.forms["bookingForm"]["Mobile"].value;
+        let age = document.forms["bookingForm"]["Age"].value;
+        let gender = document.forms["bookingForm"]["Gender"].value;
+        let date = document.forms["bookingForm"]["Date"].value;
+        let departure = document.forms["bookingForm"]["Departure"].value;
+        let destination = document.forms["bookingForm"]["Destination"].value;
+       
+        if (name == "" || mobile == "" || age == "" || gender == "" || date == "" || departure == "" || destination == "") {
+        alert("All fields are required.");
+        return false;
+        }
+       
+        if (isNaN(age)) {
+        alert("Age must be a number.");
+        return false;
+        }
+       
+        if (mobile.length!= 10 || isNaN(mobile)) {
+        alert("Mobile number must be 10 digits and a number.");
+        return false;
+        }
+       
+        if (new Date(date) < new Date()) {
+        alert("Date of journey must be a future date.");
+        return false;
+        }
+       
+        if (departure == destination) {
+        alert("Departure and destination cannot be the same.");
+        return false;
+        }
+       
+        return isValid;
+        }
+        </script>
+    
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+
+    <header><h1 style="text-align: center;">India Railways Online Ticket Booking</h1>
+                       <h4>By IRCTC</h4>
+         <h3 style="text-align: center;">Fill the required information to book your Ticket</h3>
+
+    </header>
+
+ 
+
+    <div id="main">
+        <form id="bookingForm" action="submit.html" method="post">
+        <label for="Name">Enter your Full Name </label>
+        <input type="text" id="Name" name="Name" required><br>
+
+        <label for="Mobile">Enter your Mobile Number </label>
+        <input type="tel" id="Mobile" name="Mobile" required><br>
+
+        <label for="Age">Enter your Age</label>
+        <input type="number" id="Age" name="Age" min="1" max="120" required><br>
+
+        <label for="Gender">Select your Gender</label>
+        <input type="radio" id="Gender" name="Gender" value="Male" required> Male
+        <input type="radio" id="Gender" name="Gender" value="Female" required> Female
+        <input type="radio" id="Gender" name="Gender" value="Other" required> Other<br><br>
+
+        <label for="Date">Journey Date</label>
+        <input type="date" id="Date" name="Date" required><br>
+
+        <label for="class">Select Class</label>
+        <select id="class" name="class" required>
+            <option value="">Select</option>
+            <option value="First-AC">First-AC</option>
+            <option value="Second-AC">Second-AC</option>
+            <option value="Third-AC">Third-AC</option>
+            <option value="Sleeper">Sleeper</option>
+            <option value="General">General</option>
+       
+        </select><br><br>
+
+   
+        <label for="Departure">From Station</label>
+        <select id="Departure" name="Departure" required>
+            <option value="">Select</option>
+            <option value="Kota">Kota</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Gangapur">Gangapur</option>
+            <option value="Alwar">Alwar</option>
+        </select><br><br>
+
+
+        <label for="Destination">To Station</label>
+        <select id="Destination" name="Destination" required>
+            <option value="">Select</option>
+            <option value="Kota">Kota</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Gangapur">Gangapur</option>
+            <option value="Alwar">Alwar</option>
+        </select><br><br>
+
+       
+
+        <label for="paymentMethod">Select Payment Method</label>
+            <select id="paymentMethod" name="paymentMethod" required>
+                <option value="">Select</option>
+                <option value="Credit Card">Credit Card</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="UPI">UPI</option>
+            </select><br><br>
+
+     <a href="submit.html"> <button type="submit">Submit</button></a>  
+    </form>
+</div>
+
+    <footer style="text-align: center;">
+        <h2> Happy Journey !</h2>
+        <h4>IRCTC</h4> </footer>
+
+       
+    
+
+</body>
+</html>

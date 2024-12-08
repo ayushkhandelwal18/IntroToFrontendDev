@@ -1,0 +1,45 @@
+h3{
+    color: blue;
+    text-align: left;
+    text-decoration: darkgreen underline dashed;
+    font-weight: 900;
+
+}
+#intro{
+    color: brown;
+    text-align: left;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+button{
+    background-color: goldenrod;
+    color: orangered;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+#Startup {
+    color: #df0989;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+    text-transform: uppercase;
+}
+.interest {
+    color: darkblue;
+
+}
+h1{
+    text-align: center;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    height: 200px; 
+    width: 200px;
+   
+}
+main{
+    display: flex;
+}
+
+#box1{
+    background-color: aquamarine;
+}
+
+#box2{
+    background-color: aqua;
+}
+
+#box3{
+    background-color: blueviolet;
+}

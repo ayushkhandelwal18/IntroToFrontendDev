@@ -1,0 +1,30 @@
+
+h1,h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: brown;
+    
+}
+body{
+    background-color:antiquewhite;
+}
+#name{
+    margin-right: 400px;
+}
+#college{
+    margin-right: 400px;
+}
+#department{
+    margin-right: 400px;
+}
+#contact{
+    margin-right: 400px;
+}
+#birth{
+    margin-right: 400px;
+}
+#password{
+    margin-right: 400px;
+}

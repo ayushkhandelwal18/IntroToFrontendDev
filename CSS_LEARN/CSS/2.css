@@ -1,0 +1,22 @@
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    border: solid;
+    border-radius: 2px;
+    border-color: black;
+}
+
+#p1{
+    border: solid , black ,2px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: larger;
+    padding: 50px;
+    margin: 50px;
+}
+
+#p2{
+    background-color: aquamarine;
+    font-size: larger;
+}
+

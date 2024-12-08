@@ -1,0 +1,65 @@
+body {
+    background-color: #f5f5dc;
+   }
+   
+    form {
+    width: 50%;
+    margin: 0 auto;
+    }
+   
+    header {
+    text-align: center;
+    }
+   
+    div {
+      width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0e0a00;
+    border-radius: 20px;
+    background-color: rgba(252, 255, 240, 0.726);
+    margin-bottom: 20px;
+  
+    }
+   
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+   
+    input[type="text"], input[type="tel"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    }
+   
+    input[type="radio"] {
+    margin-right: 20px;
+    }
+   
+    button[type="submit"] {
+    background-color: #40b2db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+   
+    button[type="submit"]:hover {
+    background-color: #00497a;
+    }
+   
+  
+  
+    footer{
+      font-weight: bold;
+      font-size: larger;
+     margin-bottom: 20px;
+      text-align: center;
+      
+    }

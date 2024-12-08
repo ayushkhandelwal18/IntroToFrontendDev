@@ -1,0 +1,45 @@
+
+
+/* styles.css */
+
+/* Header styles */
+header {
+    background-color: gray;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* Content area styles */
+#content {
+    height: 350px; /* Adjust this height as needed */
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Div styles */
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black; /* Add borders to divs */
+    background-image: url(smallimg.jpeg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    position: fixed; /* Use the 'fixed' position property */
+    right: 0; /* Place the div at the right end of the page */
+    z-index: 9999; /* Use z-index to place the div on top of the page */
+}
+
+

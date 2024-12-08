@@ -1,0 +1,54 @@
+/* #tag{
+    height: 50px;
+    width: 1000px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+
+}
+#new{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 153);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(204, 6, 6);
+    border-radius: 50%;
+    padding: 10%;
+ 
+
+}
+
+p{
+    height: 100px;
+    width: 1000px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgba(255, 0, 8, 0.729); */
+
+/* }
+h1{
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    background-color: rgb(181, 151, 151);
+    border: 2px solid black;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+   
+
+
+}

@@ -1,0 +1,38 @@
+a{
+    margin-right: 400px;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: lightgray;
+    padding: 10px;
+}
+header{
+    background-color: gray;
+    padding: 10px;
+}
+button{
+    background-color: wheat;
+}
+#content{
+    height: 600px;
+     background-color:lightblue;
+     padding: 10px;
+} 
+
+div{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    background-image: url(smallimg.jpeg);
+    background-position: center;
+    background-size: cover;
+    opacity:0.5;
+    margin-bottom: 10px;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+}
+
